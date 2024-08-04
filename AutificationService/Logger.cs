@@ -1,10 +1,11 @@
-﻿using System;
+﻿using AutificationService;
+using System;
 using System.IO;
 using System.Threading;
 
 namespace AuthenticationService
 {
-    public class Logger : ILogger
+    public class Logger : ILogerrClass
     {
         private ReaderWriterLockSlim lock_ = new ReaderWriterLockSlim();
 

@@ -7,8 +7,8 @@ namespace AutificationService.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private ILogger _logger;
-      public UserController( ILogger logger)
+        private ILogerrClass _logger;
+      public UserController( ILogerrClass logger)
         {
             _logger = logger;
 

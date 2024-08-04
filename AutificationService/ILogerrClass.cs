@@ -1,6 +1,6 @@
 ﻿namespace AutificationService
 {
-    public interface ILogger
+    public interface ILogerrClass
     {
         void WriteEvent(string eventMessage);
         void WriteError(string errorMesage);

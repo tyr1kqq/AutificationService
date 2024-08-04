@@ -9,7 +9,7 @@ namespace AutificationService
             var builder = WebApplication.CreateBuilder(args);
 
             // Внедрение зависимости 
-            builder.Services.AddSingleton<ILogger, Logger>();
+            builder.Services.AddSingleton<ILogerrClass, ILogerrClass>();
             // Add services to the container.
 
             builder.Services.AddControllers();
