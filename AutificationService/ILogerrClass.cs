@@ -1,4 +1,6 @@
-﻿namespace AutificationService
+﻿
+
+namespace AutificationService
 {
     public interface ILogerrClass
     {

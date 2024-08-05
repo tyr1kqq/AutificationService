@@ -1,4 +1,6 @@
-﻿using System.Net.Mail;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Net.Mail;
+using System.Security.Authentication;
 
 namespace AutificationService
 {
@@ -8,8 +10,10 @@ namespace AutificationService
         public string FullName { get; set; }
         public bool FromRussia { get; set; }
 
-        public UserViewModel(User user)
+
+        public UserViewModel(User user )
         {
+           
             FullName = String.Concat(user.FirstName, " " , user.LastName);
         }
 
@@ -25,5 +29,7 @@ namespace AutificationService
                 return true;
             return false;
         }
+
+       
     }
 }
